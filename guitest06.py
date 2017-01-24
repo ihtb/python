@@ -13,6 +13,7 @@ s_text_2 = wx.StaticText(panel, wx.ID_ANY, "テキスト2")
 s_text_3 = wx.StaticText(panel, wx.ID_ANY, "テキスト3")
 s_text_4 = wx.StaticText(panel, wx.ID_ANY, "テキスト4")
 s_text_5 = wx.StaticText(panel, wx.ID_ANY, "テキスト5")
+s_text_6 = wx.StaticText(panel, wx.ID_ANY, "テキスト6")
 
 layout = wx.BoxSizer(wx.VERTICAL)
 layout.Add(s_text_1)
@@ -20,6 +21,7 @@ layout.Add(s_text_2)
 layout.Add(s_text_3)
 layout.Add(s_text_4)
 layout.Add(s_text_5)
+layout.Add(s_text_6)
 
 panel.SetSizer(layout)
 
